@@ -67,7 +67,7 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
 frame_count = 0
-frame_skip = 3  # Process every 3rd frame
+frame_skip = 30  # Process every 30 frame to reduce latency
 
 try:
     while cap.isOpened():
