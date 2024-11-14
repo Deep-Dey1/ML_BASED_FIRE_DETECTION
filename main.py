@@ -33,7 +33,7 @@ def send_sms():
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
-        body='Fire has been detected by the Fire Detector.\nPlease visit the link to see the camera input: https://93a5f42f-4cd8-4af1-a340-de5d953ef393-00-1f2kpikqrt09p.pike.replit.dev/',
+        body='Fire has been detected by the Fire Detector.\nPlease visit the link to see the camera input: your hosted repel link in which the live camera feed is streaming',
         from_='your assigned virtual number from twilio',
         to='reciever mobile number'  # Replace with the actual recipient's number
     )
